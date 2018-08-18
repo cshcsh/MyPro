@@ -1,0 +1,167 @@
+@CHARSET "UTF-8";
+
+body {
+	height: 530px;
+	width: 100%;
+}
+
+.header {
+	height: 60px;
+	width: 100%;
+}
+
+.header>div {
+	margin-left: 80px;
+}
+
+.header>div>img {
+	height: 60px;
+	width: 170px;
+}
+
+.header-span {
+	display: inline-block;
+	height: 60px;
+	width: 120px;
+	vertical-align: top;
+	line-height: 60px;
+	font-family: Microsoft YaHei;
+	font-size: 22px;
+	color: gray;
+	margin-left: 10px;
+}
+
+.article {
+	height: 100%;
+	width: 100%;
+	background:no-repeat;
+	background-color:#EA3754;
+}
+.article .form {
+	width: 340px;
+	height: 360px;
+	background: white;
+	float: right;
+	margin-right: 100px;
+	margin-top: 50px;
+}
+
+.footer .a {
+	text-align: center;
+	height: 25px;
+	width: 100%;
+	margin-top: 5px;
+}
+
+.footer .a>a {
+	font-family: Microsoft YaHei;
+	font-size: 13px;
+	text-decoration: none;
+}
+
+.footer .a>a:hover {
+	color: red;
+}
+
+.footer .copyright {
+	text-align: center;
+	height: 20px;
+	width: 100%;
+	margin-bottom: 10px;
+	font-family: Microsoft YaHei;
+	font-size: 13px;
+}
+
+.account {
+	text-align: center;
+	font-family: Microsoft YaHei;
+	font-size: 20px;
+	color: black;
+	margin-top: 30px;
+}
+
+.username {
+	text-align: center;
+	margin-top: 30px;
+}
+
+.u {
+	line-height: 32px;
+	height: 32px;
+	width: 80%;
+}
+
+.password {
+	text-align: center;
+	margin-top: 15px;
+}
+
+.p {
+	line-height: 32px;
+	height: 32px;
+	width: 80%;
+}
+
+.error {
+	height: 45px;
+	width:100%;
+	text-align: right;
+	padding-top:20px;
+}
+.error>a{
+	color: gray;
+	font-size: 12px;
+	font-family: Microsoft YaHei;
+	margin-right:10%;
+	
+	text-decoration: none;
+}
+.error>a:hover{
+	color: #EA3754;
+	
+}
+.login-btn {
+	height: 32px;
+	width: 100%;
+}
+.login-btn>div {
+	height: 32px;
+	width: 80%;
+	margin-left:10%;
+	background-color:#EA3754;
+	text-align: center;
+	border-radius: 5px;
+}
+.login-btn>div:hover {
+	border: 1px solid black;
+}
+.login-btn>div>a {
+	color:white;
+	font-size: 20px;
+	font-family: Microsoft YaHei;
+	text-decoration: none;
+}
+.reg{
+	width:100%;
+	height:70px;
+}
+.reg>div{
+	width:80%;
+	height:30px;
+	margin-left:10%;
+	text-align:right;
+	padding-top:40px;
+}
+.reg>div>img{
+	width:13px;
+	height:13px;
+}
+.reg>div>a{
+	text-decoration: none;
+	color: gray;
+	font-size: 13px;
+	font-family: Microsoft YaHei;
+}
+.reg>div>a:hover{
+	color: #EA3754;
+}
