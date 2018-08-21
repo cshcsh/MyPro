@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<link href="my.css" type="text/css" rel="stylesheet">
+<script type="text/javascript" src="jquery-1.12.4.js">
+	
+</script>
+<script type="text/javascript" src="my.js">
+	
+</script>
+
+
+</head>
+<body>
+	<div>
+		<div class="form">
+			<div>
+				<div class="time">
+					<table>
+						<tr>
+							<td>-游戏时间:-</td>
+							<td><input type="text" id="long_time" class="long_time">分钟</td>
+						</tr>
+						<tr>
+							<td>-倒计时间:-</td>
+							<td><span id="other_time"></span></td>
+						</tr>
+						<tr>
+							<td>-间隔时间:-</td>
+							<td><input type="text" id="interval_time"
+								class="interval_time">秒钟</td>
+						</tr>
+						<tr>
+							<td>-停留时间:-</td>
+							<td><input type="text" id="stop_time" class="stop_time">秒钟</td>
+						</tr>
+						<tr>
+							<td>-得分情况:-</td>
+							<td><span id="score"></span></td>
+						</tr>
+						<tr style="height: 20px;">
+							<td></td>
+							<td></td>
+						</tr>
+						<tr>
+							<td><input type="button" id="startBtn" value="开始游戏" /></td>
+							<td><input type="button" id="endBtn" value="退出游戏"></td>
+						</tr>
+					</table>
+				</div>
+				<div class="dec">
+					<p>
+						<font>游戏说明</font>
+					</p>
+					<p>
+						&nbsp;&nbsp;&nbsp;<font>点击"开始游戏"按钮，在下图中</font>
+					</p>
+					<p>
+						<font>随机产生老鼠，老鼠消失前单机老鼠</font>
+					</p>
+					<p>
+						<font>进行击打，打中一次即可获得100的</font>
+					</p>
+					<p>
+						<font>积分，没有打中老鼠，扣取100积分</font>
+					</p>
+					<p>
+						<font>快快行动吧，考验您的反应和眼力</font>
+					</p>
+					<p>
+						<font>作者：csh&nbsp;&nbsp;&nbsp;指导老师：yan</font>
+					</p>
+				</div>
+			</div>
+		</div>
+		<div class="table">
+			<table>
+				<tr>
+					<td><img src="images/00.jpg" onclick="play(this)"/></td>
+					<td><img src="images/00.jpg" onclick="play(this)"/></td>
+					<td><img src="images/00.jpg" onclick="play(this)"/></td>
+					<td><img src="images/00.jpg" onclick="play(this)"/></td>
+					<td><img src="images/00.jpg" onclick="play(this)"/></td>
+				</tr>
+				<tr>
+					<td><img src="images/00.jpg" onclick="play(this)"/></td>
+					<td><img src="images/00.jpg" onclick="play(this)"/></td>
+					<td><img src="images/00.jpg" onclick="play(this)"/></td>
+					<td><img src="images/00.jpg" onclick="play(this)"/></td>
+					<td><img src="images/00.jpg" onclick="play(this)"/></td>
+				</tr>
+				<tr>
+					<td><img src="images/00.jpg" onclick="play(this)"/></td>
+					<td><img src="images/00.jpg" onclick="play(this)"/></td>
+					<td><img src="images/00.jpg" onclick="play(this)"/></td>
+					<td><img src="images/00.jpg" onclick="play(this)"/></td>
+					<td><img src="images/00.jpg" onclick="play(this)"/></td>
+				</tr>
+				<tr>
+					<td><img src="images/00.jpg" onclick="play(this)"/></td>
+					<td><img src="images/00.jpg" onclick="play(this)"/></td>
+					<td><img src="images/00.jpg" onclick="play(this)"/></td>
+					<td><img src="images/00.jpg" onclick="play(this)"/></td>
+					<td><img src="images/00.jpg" onclick="play(this)"/></td>
+				</tr>
+				<tr>
+					<td><img src="images/00.jpg" onclick="play(this)"/></td>
+					<td><img src="images/00.jpg" onclick="play(this)"/></td>
+					<td><img src="images/00.jpg" onclick="play(this)"/></td>
+					<td><img src="images/00.jpg" onclick="play(this)"/></td>
+					<td><img src="images/00.jpg" onclick="play(this)"/></td>
+				</tr>
+			</table>
+		</div>
+	</div>
+</body>
+</html>

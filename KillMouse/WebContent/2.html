@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title></title>
+<script type="text/javascript">
+	var startBtn;
+	var time_span;
+	var mytime;
+	window.onload = function() {
+
+		startBtn = document.getElementById("start");
+		time_span = document.getElementById("time_span");
+		startBtn.onclick = function() {
+			start = new Date();
+			time();
+		}
+	}
+	function time() {
+		
+		var end = new Date();
+		mytime = 60 - parseInt((end - start) / 1000);
+		//显示倒计时
+		time_span.innerHTML = mytime;
+		setTimeout("time()", 1000);
+	}
+</script>
+</head>
+<body>
+	<span id="time_span"></span>
+	<button id="start"/>开始游戏</button>
+</body>
+</html>
