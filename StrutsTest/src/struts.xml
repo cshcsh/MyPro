@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC
+    "-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"
+    "http://struts.apache.org/dtds/struts-2.0.dtd">
+
+<struts>
+
+	<package name="helloWorld1" namespace="/fore" extends="struts-default">
+		<action name="login5" class="com.java5200.action.UserAction5">
+			<result name="success">${pageContext.request.contextPath}/success.jsp</result>
+			<result name="error">${pageContext.request.contextPath}/error.jsp</result>
+		</action>
+		
+	</package>
+	
+	<package name="helloWorld2" namespace="/back" extends="struts-default">
+		<action name="login5" class="com.java5200.action.UserAction6">
+			<result name="success">${pageContext.request.contextPath}/success.jsp</result>
+			<result name="error">${pageContext.request.contextPath}/error.jsp</result>
+		</action>
+		
+	</package>
+
+	<package name="helloWorld" extends="struts-default">
+		<action name="login4" class="com.java5200.action.UserAction4">
+			<result name="success">success.jsp</result>
+			<result name="error">error.jsp</result>
+		</action>
+
+		<action name="login3" class="com.java5200.action.UserAction3">
+			<result name="success">success.jsp</result>
+			<result name="error">error.jsp</result>
+		</action>
+
+		<action name="login2" class="com.java5200.action.UserAction2">
+			<result name="success">success.jsp</result>
+			<result name="error">error.jsp</result>
+		</action>
+
+		<action name="login" class="com.java5200.action.UserAction">
+			<result name="success">success.jsp</result>
+			<result name="error">error.jsp</result>
+		</action>
+
+	</package>
+
+</struts>
